@@ -16,7 +16,7 @@ interface IntegrationTest {
         val container = PostgreSQLContainer("postgres:latest")
             .waitingFor(
                 WaitAllStrategy(WITH_MAXIMUM_OUTER_TIMEOUT)
-                    .withStartupTimeout(Duration.ofSeconds(1))
+                    .withStartupTimeout(Duration.ofSeconds(90))
                     .withStrategy(Wait.forLogMessage(".*database system is ready to accept connections.*\\s", 2))
                     .withStrategy(Wait.forListeningPort())
             )
