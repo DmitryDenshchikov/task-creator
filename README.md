@@ -1,1 +1,1 @@
-### This project was created for an article [Combine multiple Testcontainers’ wait strategies](https://medium.com/@HereAndBeyond/spring-boot-3-websocket-oauth-2-0-tls-bf479327339f)
+### This project was created for an article [Combine multiple Testcontainers’ wait strategies](https://medium.com/@HereAndBeyond/combine-multiple-testcontainers-wait-strategies-80efaaaa4d6c)
