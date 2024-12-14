@@ -1,2 +1,3 @@
 rootProject.name = "task-creator"
 include 'app-kotlin'
+include 'app-java'
